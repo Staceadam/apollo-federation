@@ -1,0 +1,23 @@
+{
+  "name": "apollo-federation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:location": "node ./services/location-service",
+    "start:review": "node ./services/review-service"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.nmlv.nml.com:fx-mobile/apollo-federation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/gateway": "2.1.4",
+    "@apollo/server": "^4.1.1",
+    "@apollo/subgraph": "^2.1.4",
+    "graphql-tag": "^2.12.6"
+  }
+}
